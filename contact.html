@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Malou Lanza | Cabinet à Genève (Eaux-Vives)</title>
+  <meta name="description" content="Contact, horaires et localisation du cabinet de kinésithérapie Malou Lanza à Genève (Eaux-Vives). Carte OpenStreetMap intégrée." />
+  <link rel="icon" href="assets/images/logo-malou-lanza.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="header">
+    <div class="container">
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="brand" href="index.html">
+          <img src="assets/images/logo-malou-lanza.svg" alt="Logo Malou Lanza" />
+          <div class="title">
+            <span>Malou Lanza</span>
+            <span>Cabinet de kinésithérapie · Genève</span>
+          </div>
+        </a>
+
+        <div class="nav-links" data-menu>
+          <a href="index.html">Accueil</a>
+          <a href="cabinet.html">Le cabinet</a>
+          <a href="prestations.html">Prestations</a>
+          <a href="prise-rdv.html">Prendre RDV</a>
+          <a href="tarifs.html">Tarifs</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </div>
+
+        <div class="nav-cta">
+          <a class="btn btn-primary" href="prise-rdv.html">Prendre rendez-vous</a>
+          <button class="icon-btn" type="button" aria-label="Ouvrir le menu" aria-expanded="false" data-menu-btn>☰</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="pagehead">
+      <div class="container">
+        <h1>Contact & accès</h1>
+        <p>Coordonnées fictives et localisation à Genève (Eaux-Vives), avec carte OpenStreetMap intégrée.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div class="card">
+            <h3>Coordonnées (fictives)</h3>
+            <p><strong>Adresse :</strong> Rue des Eaux-Vives 24, 1207 Genève</p>
+            <p><strong>Téléphone :</strong> +41 22 555 12 34</p>
+            <p><strong>Email :</strong> contact@maloulanza-kine.ch</p>
+            <div style="height:10px"></div>
+            <div class="notice">
+              <b>Horaires (exemple)</b>
+              <p>
+                Lun–Ven : 08:00–19:00<br>
+                Sam : 09:00–13:00<br>
+                Dim : fermé
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Écrire au cabinet</h3>
+            <form class="form" action="#" method="post">
+              <div class="field">
+                <label for="name">Nom</label>
+                <input id="name" name="name" type="text" placeholder="Votre nom" required />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="vous@exemple.com" required />
+              </div>
+              <div class="field">
+                <label for="subject">Motif</label>
+                <select id="subject" name="subject">
+                  <option>Bilan / première consultation</option>
+                  <option>Suivi</option>
+                  <option>Post-opératoire</option>
+                  <option>Question administrative</option>
+                  <option>Autre</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Décrivez brièvement votre demande (contexte, zone, objectif)."></textarea>
+              </div>
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Envoyer (démo)</button>
+                <span class="helper">Ce formulaire est une démo (sans envoi). Pour un envoi réel, il faudra un backend.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="map" aria-label="Carte OpenStreetMap">
+          <!-- Carte centrée sur le quartier des Eaux-Vives (Genève).
+               Tu peux ajuster la zone avec export OpenStreetMap si besoin. -->
+          <iframe
+            title="Carte OpenStreetMap - Cabinet Malou Lanza"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=6.1600%2C46.2010%2C6.1708%2C46.2068&amp;layer=mapnik&amp;marker=46.2039%2C6.1654">
+          </iframe>
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="card">
+          <h3>Accès (exemples)</h3>
+          <div class="grid-3" style="margin-top:10px">
+            <div class="card" style="box-shadow:none">
+              <h3 style="margin-top:0">Transports</h3>
+              <p>Tram/bus à proximité (à adapter selon l’adresse exacte).</p>
+            </div>
+            <div class="card" style="box-shadow:none">
+              <h3 style="margin-top:0">Parking</h3>
+              <p>Parkings publics à proximité (selon disponibilité).</p>
+            </div>
+            <div class="card" style="box-shadow:none">
+              <h3 style="margin-top:0">Accessibilité</h3>
+              <p>Informations à compléter : étage, ascenseur, accès PMR.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="brand" style="gap:12px">
+            <img src="assets/images/logo-malou-lanza.svg" alt="Logo Malou Lanza" />
+            <div class="title">
+              <span>Malou Lanza</span>
+              <span>Cabinet de kinésithérapie · Genève</span>
+            </div>
+          </div>
+          <div style="height:10px"></div>
+          <div class="tag">Contact · Carte OSM</div>
+        </div>
+
+        <div>
+          <h4>Cabinet</h4>
+          <a href="cabinet.html">Le cabinet</a><br>
+          <a href="prestations.html">Prestations</a><br>
+          <a href="tarifs.html">Tarifs</a><br>
+          <a href="prise-rdv.html">Prendre RDV</a>
+        </div>
+
+        <div>
+          <h4>Aide</h4>
+          <a href="faq.html">FAQ</a><br>
+          <a href="contact.html">Contact</a><br>
+          <a href="mentions-legales.html">Mentions légales</a>
+        </div>
+
+        <div>
+          <h4>Réseaux sociaux</h4>
+          <a href="#" aria-label="Instagram (lien à remplacer)">Instagram</a><br>
+          <a href="#" aria-label="LinkedIn (lien à remplacer)">LinkedIn</a><br>
+          <a href="#" aria-label="Facebook (lien à remplacer)">Facebook</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© <span data-year></span> Malou Lanza — Cabinet de kinésithérapie (site vitrine).</div>
+        <div>Gestion du site : <a href="mentions-legales.html"><strong>Matteo Bruyère</strong></a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
